@@ -59,3 +59,39 @@ if numbers.count > 3 {
 
 // Display the result
 print(numbers)
+
+let country = "Canada"
+
+if country == "Australia" {
+    print("G'day!")
+}
+
+let name = "Taylor Swift"
+
+if name != "Anonymous" {
+    print("Welcome, \(name)")
+}
+
+// Create the username variable
+var username = "taylorswift13"
+
+// If `username` contains an empty string
+if username == "" {
+    // Make it equal to "Anonymous"
+    username = "Anonymous"
+}
+
+// Now print a welcome message
+print("Welcome, \(username)!")
+
+if username.count == 0 {
+    username = "Anonymous"
+}
+
+if username.isEmpty == true {
+    username = "Anonymous"
+}
+
+if username.isEmpty {
+    username = "Anonymous"
+}
