@@ -9,3 +9,5 @@ print("Total count of elements in array is \(totalCount)")
 let uniqueCount = Set(array).count
 
 print("Total count of unique elements in array is \(uniqueCount)")
+
+// this was checkpoint 2
