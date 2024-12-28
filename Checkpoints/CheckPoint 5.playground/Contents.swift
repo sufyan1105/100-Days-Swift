@@ -13,5 +13,4 @@ let sortedNumbers = oddNumbers.sorted()
 // Step 3: Map them to strings in the specified format
 let luckyNumberStrings = sortedNumbers.map { "\($0) is a lucky number" }
 
-// Step 4: Print the resulting array, one item per line
 luckyNumberStrings.forEach { print($0) }
