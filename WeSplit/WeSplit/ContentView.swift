@@ -10,11 +10,21 @@ import SwiftUI
 struct ContentView: View {
     @State private var checkAmount = 0.0
     @State private var numberOfPeople = 2
+    @State private var tipPercentage = 20
+    
+    let tipPercentages: [Int] = [10, 15, 20, 25, 30]
 //    @State private var tapcount = 0
 //    @State private var name = ""
 //    let students = ["Harry", "Ron", "Hermione"]
 //    @State private var selectedStudent = "Harry"
     var body: some View {
+        Form{
+            Section{
+                TextField("Check amount", text: $checkAmount)
+                
+                
+            }
+        }
 //        NavigationStack{
 //            Form{
 //                Picker("Select your student", selection: $selectedStudent){
