@@ -25,13 +25,29 @@ struct ContentView: View {
                 
             }
         }
-//        NavigationStack{
+//
+    }
+}
+
+#Preview {
+    ContentView()
+}
+
+
+
+
+
+
+
+
+
+//NavigationStack{
 //            Form{
 //                Picker("Select your student", selection: $selectedStudent){
 //                    ForEach(students, id: \.self){
 //                        Text($0)
 //                    }
-//                
+//
 ////                ForEach(0..<11){
 ////                    Text("Row \($0)")
 //                }
@@ -39,7 +55,7 @@ struct ContentView: View {
 //                //            Text("Your name is \(name)")
 //            }
 //            .navigationTitle("Select your student")
-//            
+//
 //            //        Button("Tap count: \(tapcount)"){
 //            //            tapcount += 1
 //            //        }
@@ -57,9 +73,3 @@ struct ContentView: View {
 //            //            .navigationBarTitleDisplayMode(.inline)
 //            //        }
 //        }
-    }
-}
-
-#Preview {
-    ContentView()
-}
